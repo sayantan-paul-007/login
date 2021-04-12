@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Practice 1
+        </title>
+        <style>
+            *:focus{
+                outline: none;
+            }
+            body{
+                background-image: url(pinkblubg.jpg);
+                background-repeat: no-repeat;
+                background-size: 1365px 626px;
+            }
+            div.form{
+                display: block;
+                text-align: center;
+                background-color: white;
+                margin-left: auto;
+                margin-right: auto;
+                width: 281px;
+                height: 499px;
+                padding-top: 25px;
+                border-radius: 10px;
+
+            }
+            div.signup{
+                font-family: Aharoni;
+            }
+            div.details{
+                text-align: center;
+                padding-left: 10px;
+                font-size: 13px;
+                font-family: Tisa Sans Pro Regular;
+                line-height: 3px;
+                }
+            .fname{
+                height: 25px;
+                width: 225px;
+                border: 1px solid black;
+                border-radius: 20px;
+
+            }
+            .fname:hover{
+                width: 250px;
+                transition: 0.2s ease-in-out;
+                border: 0.5px solid rgb(252, 93, 230);
+            }
+            .sub{
+                border-radius: 20px;
+                height: 25px;
+                width: 225px;
+                font-size: 12px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 0.5px solid rgb(252, 93, 230);
+                color: rgb(50, 163, 255);
+                padding-left: 20px;
+            }
+            .sub:hover{
+                background-image: url(pinkblubg.jpg);
+                background-size: 250px 35px;
+                color:white;
+                height: 25px;
+                width: 250px;
+                transition: 0.2s ease-in-out;
+                border: none;
+                font-size: 15px;
+            }
+            div.signup1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                line-height: 7px;
+            }
+            .imgedit{
+                height: 19px;
+                width: 20px;
+                float: left;
+            }
+            .btn{
+                height: 25px;
+                width: 225px;
+                border-radius: 20px ;       
+                font-family: Microsoft Tai Le;        
+                border: 1px solid black;
+            }
+            .btn:hover{
+                width: 250px;
+                transition: 0.2s ease-in-out;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="form">
+            <form action="#">
+                <div class="signup">
+                    <h1>Sign Up</h1><br>
+                </div>
+                <div class="details">
+                    <p>First Name</p>
+                    <input type="text" class="fname" placeholder="Enter First Name"><br>
+                    <p>Last Name</p>
+                    <input type="text" class="fname" placeholder="Enter Last Name"><br>
+                    <p>Email</p>
+                    <input type="text" class="fname" placeholder="Enter Gmail"><br>
+                    <p>Create Password</p>
+                    <input type="password" class="fname"><br>
+                    <p>Confirm Password</p>
+                    <input type="password" class="fname"><br>
+                </div><br>
+                <div class="login1">
+                    <br><input type="submit" value="SIGN UP" class="sub">
+                </div><br>
+            </form>
+        </div>
+    </body>
+</html>
