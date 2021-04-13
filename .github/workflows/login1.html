@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Practice 1
+        </title>
+        <style>
+            *:focus{
+                outline: none;
+            }
+            body{
+                background-image: url(pinkblubg.jpg);
+                background-repeat: no-repeat;
+                background-size: 1365px 626px;
+            }
+            div.form{
+                display: block;
+                text-align: center;
+                background-color: white;
+                margin-left: auto;
+                margin-right: auto;
+                width: 281px;
+                height: 499px;
+                padding-top: 25px;
+                border-radius: 10px;
+
+            }
+            div.login{
+                font-family: Aharoni;
+            }
+            div.details{
+                text-align: center;
+                padding-left: 10px;
+                font-size: 13px;
+                font-family: Tisa Sans Pro Regular;
+                line-height: 1px;
+            }
+            .fname{
+                height: 25px;
+                width: 225px;
+                border: 1px solid black;
+                border-radius: 15px;
+                text-align: start;
+                
+            }
+            .fname:hover{
+                width: 250px;
+                transition: 0.2s ease-in-out;
+                border: 0.5px solid rgb(252, 93, 230);
+            }
+            .sub{
+                border-radius: 20px;
+                height: 25px;
+                width: 225px;
+                font-size: 12px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 0.5px solid rgb(252, 93, 230);
+                color: rgb(50, 163, 255);
+                padding-left: 20px;
+            }
+            .sub:hover{
+                background-image: url(pinkblubg.jpg);
+                background-size: 250px 35px;
+                color:white;
+                height: 25px;
+                width: 250px;
+                transition: 0.2s ease-in-out;
+                border: none;
+                font-size: 15px;
+            }
+            div.forget{
+                text-align: right;
+                font-size: small;
+                padding-right: 10px;
+                line-height: 2px;
+                font-family: Tisa Sans Pro Regular;
+            }
+            a{
+                text-decoration: none;
+                color:slategray;
+            }
+            hr{
+                width: 150px;
+
+            }
+            div.signup1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                line-height: 7px;
+            }
+            .imgedit{
+                height: 19px;
+                width: 20px;
+                float: left;
+            }
+            .btn{
+                height: 25px;
+                width: 225px;
+                border-radius: 20px ;       
+                font-family: Microsoft Tai Le;         
+                
+                border: 1px solid black;
+            }
+            .btn:hover{
+                width: 250px;
+                transition: 0.2s ease-in-out;
+
+            }
+            </style>
+    </head>
+    <body>
+        <div class="form">
+            <form action="#">
+                <div class="login">
+                    <h1>Login</h1><br>
+                </div>
+                <div class="details">
+                    <p>Username</p>
+                    <input type="text" class="fname" placeholder="Enter username"><br><br>
+                    <p>Password</p>
+                    <input type="password" class="fname" placeholder="Enter Password"><br>
+                </div><br>
+                <div class="forget">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="login1">
+                    <br><input type="button" value="LOGIN" class="sub">
+                </div><br><hr><br>
+                <div class="signup2">
+                    <button class="btn"><img src="data:image/png;base64,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" alt="oops" class="imgedit">Sign in with Google</button><br>
+                    <br><button class="btn"><img src="facebook-logo-2019-thumb (1).png" alt="oops" class="imgedit">Sign in with Facebook</button>
+                </div><br><br>
+                <div class="signup1">
+                    <p>Don't have an account?</p>
+                    <a href="practice2.html">Sign Up</a>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
